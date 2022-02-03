@@ -1,0 +1,21 @@
+
+#include <windows.h>
+#include "menu.h"
+
+
+MainMenu MENU
+{
+    POPUP "File"
+    {
+        MENUITEM "Open file", IDM_OPEN
+        MENUITEM "Exit", IDM_EXIT
+
+    }
+
+     POPUP "View"
+    {
+        MENUITEM "With wrap", IDM_WITH_WRAP
+        MENUITEM "Without wrap", IDM_WITHOUT_WRAP
+
+    }
+}
